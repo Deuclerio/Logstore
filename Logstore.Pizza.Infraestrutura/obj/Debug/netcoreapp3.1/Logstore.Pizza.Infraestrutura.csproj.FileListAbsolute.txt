@@ -1,0 +1,3 @@
+C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.csprojAssemblyReference.cache
+C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.AssemblyInfoInputs.cache
+C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.AssemblyInfo.cs

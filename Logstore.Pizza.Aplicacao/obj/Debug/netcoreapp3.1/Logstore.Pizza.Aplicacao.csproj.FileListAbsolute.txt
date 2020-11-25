@@ -1,0 +1,2 @@
+C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Aplicacao\obj\Debug\netcoreapp3.1\Logstore.Pizza.Aplicacao.AssemblyInfoInputs.cache
+C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Aplicacao\obj\Debug\netcoreapp3.1\Logstore.Pizza.Aplicacao.AssemblyInfo.cs
