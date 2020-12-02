@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj": {}
+    "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj": {
+    "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj",
+        "projectUniqueName": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj",
         "projectName": "Logstore.Pizza.Dominio",
-        "projectPath": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj",
+        "projectPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj",
         "packagesPath": "C:\\Users\\Deuclerio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Dominio\\obj\\",
+        "outputPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj": {
+    "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj",
+        "projectUniqueName": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj",
         "projectName": "Logstore.Pizza.Infraestrutura",
-        "projectPath": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj",
+        "projectPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj",
         "packagesPath": "C:\\Users\\Deuclerio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Infraestrutura\\obj\\",
+        "outputPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -85,8 +85,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj": {
-                "projectPath": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj"
+              "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj": {
+                "projectPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj"
               }
             }
           }
@@ -99,6 +99,12 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

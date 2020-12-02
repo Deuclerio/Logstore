@@ -5,3 +5,10 @@ C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Dominio\ob
 C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.AssemblyInfo.cs
 C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.dll
 C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.pdb
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\bin\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.deps.json
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\bin\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.dll
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\bin\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.pdb
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.AssemblyInfoInputs.cache
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.AssemblyInfo.cs
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.dll
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.pdb

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj",
+      "projectUniqueName": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj",
       "projectName": "Logstore.Pizza.Dominio",
-      "projectPath": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj",
+      "projectPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj",
       "packagesPath": "C:\\Users\\Deuclerio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Dominio\\obj\\",
+      "outputPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

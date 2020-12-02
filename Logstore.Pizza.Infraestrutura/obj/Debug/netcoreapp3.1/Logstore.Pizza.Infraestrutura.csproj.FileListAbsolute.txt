@@ -1,3 +1,14 @@
 C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.csprojAssemblyReference.cache
 C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.AssemblyInfoInputs.cache
 C:\Users\Deuclerio\Desktop\Logstore\Logstore.Pizza.API\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.AssemblyInfo.cs
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\bin\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.deps.json
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\bin\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.dll
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\bin\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.pdb
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\bin\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.dll
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\bin\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.pdb
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.csprojAssemblyReference.cache
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.AssemblyInfoInputs.cache
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.AssemblyInfo.cs
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.csproj.CopyComplete
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.dll
+C:\Fontes\Logstore\Logstore\Logstore.Pizza.Infraestrutura\obj\Debug\netcoreapp3.1\Logstore.Pizza.Infraestrutura.pdb

@@ -1,10 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Logstore.Pizza.Dominio.Endereco;
+using Logstore.Pizza.Dominio.Model;
+using Logstore.Pizza.Dominio.PedidoItem;
+using Logstore.Pizza.Dominio.Pizza;
+using Microsoft.EntityFrameworkCore;
 
 namespace Logstore.Pizza.Infraestrutura.Database
 {
-    class Context
+   public class Context: DbContext
     {
+        public Context(DbContextOptions<DbContext> options) : base(options)
+        {
+
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+    
+        }
+
+        public DbSet<ClienteModel> Clientes { get; set; }
+        public DbSet<EnderecoModel> Enderecos { get; set; }
+        public DbSet<PedidoModel> Pedidos { get; set; }
+        public DbSet<ProdutoModel> Produtos { get; set; }
+        public DbSet<PedidoItemModel> PedidoItem { get; set; }
     }
 }

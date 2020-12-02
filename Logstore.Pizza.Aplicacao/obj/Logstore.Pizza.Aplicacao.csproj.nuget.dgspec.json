@@ -1,17 +1,79 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Aplicacao\\Logstore.Pizza.Aplicacao.csproj": {}
+    "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Aplicacao\\Logstore.Pizza.Aplicacao.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Aplicacao\\Logstore.Pizza.Aplicacao.csproj": {
+    "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Aplicacao\\Logstore.Pizza.Aplicacao.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Aplicacao\\Logstore.Pizza.Aplicacao.csproj",
+        "projectUniqueName": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Aplicacao\\Logstore.Pizza.Aplicacao.csproj",
         "projectName": "Logstore.Pizza.Aplicacao",
-        "projectPath": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Aplicacao\\Logstore.Pizza.Aplicacao.csproj",
+        "projectPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Aplicacao\\Logstore.Pizza.Aplicacao.csproj",
         "packagesPath": "C:\\Users\\Deuclerio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Deuclerio\\Desktop\\Logstore\\Logstore.Pizza.API\\Logstore.Pizza.Aplicacao\\obj\\",
+        "outputPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Aplicacao\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Deuclerio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj": {
+                "projectPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj"
+              },
+              "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj": {
+                "projectPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj",
+        "projectName": "Logstore.Pizza.Dominio",
+        "projectPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj",
+        "packagesPath": "C:\\Users\\Deuclerio\\.nuget\\packages\\",
+        "outputPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +102,71 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj",
+        "projectName": "Logstore.Pizza.Infraestrutura",
+        "projectPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\Logstore.Pizza.Infraestrutura.csproj",
+        "packagesPath": "C:\\Users\\Deuclerio\\.nuget\\packages\\",
+        "outputPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Infraestrutura\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Deuclerio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj": {
+                "projectPath": "C:\\Fontes\\Logstore\\Logstore\\Logstore.Pizza.Dominio\\Logstore.Pizza.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
