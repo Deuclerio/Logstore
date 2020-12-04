@@ -11,8 +11,6 @@ namespace Logstore.Pizza.Dominio.Pedido
     {
         Task<ICollection<PedidoModel>> GetHistorico(int idcliente);
 
-        Task<int> Incluir(PedidoModel pedido);
-
-        //Task<PedidoModel> GetByNumeroPedido(int numeroPedido);
+        Task<int> Incluir(PedidoViewModel pedido);
     }
 }

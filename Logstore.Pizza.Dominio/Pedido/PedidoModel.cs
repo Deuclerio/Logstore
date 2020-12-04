@@ -3,29 +3,42 @@ using Logstore.Pizza.Dominio.PedidoItem;
 using Logstore.Pizza.Dominio.Pizza;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Logstore.Pizza.Dominio.Model
 {
+    [Table("Pedido")]
+
     public class PedidoModel
+
+
     {
         public PedidoModel()
         {
             PedidoItem = new List<PedidoItemModel>();
         }
 
+        [Key]
         public int PedidoId { get; set; }
 
-        public ClienteModel ClienteId { get; set; }
+        [Column("ValorTotalPedido")]
+        public decimal ValorTotalPedido { get; set; } = 0;
+
+        [Column("DataRegistro")]
+
+        public DateTime DataRegistro = new DateTime();
+
+        [Column("ClienteId")]
+        public int? ClienteId { get; set; }
 
         public List<PedidoItemModel> PedidoItem { get; set; }
 
-        public decimal ValorTotalPedido { get; set; } = 0;
-
-        public DateTime DataRegistro = new DateTime();
-        public EnderecoModel EnderecoId { get; set; }
+        [Column("EnderecoId")]
+        public int? EnderecoId { get; set; }
 
         public bool PedidoValido() => this.PedidoItem.Count > 0 && this.PedidoItem.Count <= 10;
 
@@ -54,5 +67,7 @@ namespace Logstore.Pizza.Dominio.Model
 
             return valorMeiaPizza;
         }
+
+        public EnderecoModel Endereco { get; set; }
     }
 }

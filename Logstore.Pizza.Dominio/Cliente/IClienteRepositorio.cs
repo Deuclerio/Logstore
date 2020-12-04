@@ -6,6 +6,5 @@ namespace Logstore.Pizza.Dominio.Cliente
 {
     public interface IClienteRepositorio : IRepositorio<ClienteModel>
     {
-        Task<bool> ClienteExiste(int ClienteId);
     }
 }

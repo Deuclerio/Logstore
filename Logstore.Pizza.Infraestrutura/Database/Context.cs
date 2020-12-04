@@ -8,7 +8,7 @@ namespace Logstore.Pizza.Infraestrutura.Database
 {
    public class Context: DbContext
     {
-        public Context(DbContextOptions<DbContext> options) : base(options)
+        public Context(DbContextOptions<Context> options) : base(options)
         {
 
         }

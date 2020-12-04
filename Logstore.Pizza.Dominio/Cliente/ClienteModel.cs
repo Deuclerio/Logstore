@@ -1,40 +1,40 @@
 ﻿using Logstore.Pizza.Dominio.Endereco;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace Logstore.Pizza.Dominio.Model
 {
+    [Table("Cliente")]
     public class ClienteModel
     {
-        private EnderecoModel enderecoId;
-
         public ClienteModel()
         {
 
         }
 
-        public ClienteModel(EnderecoModel enderecoId)
-        {
-            this.enderecoId = enderecoId;
-        }
-
-        public ClienteModel(int clienteid, string nomeCliente, string telefone, EnderecoModel enderecoId, bool ativo, DateTime dataRegistro)
-        {
-            ClienteId = clienteid;
-            NomeCliente = nomeCliente;
-            Telefone = telefone;
-            EnderecoId = enderecoId;
-            Ativo = ativo;
-            DataRegistro = dataRegistro;
-        }
-
+        [Key]
+        [Column("ClienteId")]
         public int ClienteId { get; set; }
+
+        [Column("NomeCliente")]
         public string NomeCliente { get; set; }
+
+        [Column("Telefone")]
         public string Telefone { get; set; }
-        public EnderecoModel EnderecoId { get; set; }
+
+        [Column("Ativo")]
         public bool Ativo { get; set; }
+
+        [Column("DataRegistro")]
         public DateTime DataRegistro { get; set; } = DateTime.Now;
 
+        [Column("EnderecoId")]
+        public int EnderecoId { get; set; }
+
+        [ForeignKey("EnderecoId")]
+        public EnderecoModel Endereco { get; set; }
     }
 }

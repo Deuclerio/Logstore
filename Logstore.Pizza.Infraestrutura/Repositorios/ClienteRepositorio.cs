@@ -19,13 +19,6 @@ namespace Logstore.Pizza.Infraestrutura.Repositorios
         {
             _context = context;
         }
-
-        public async Task<bool> ClienteExiste(int ClienteId)
-        {
-            return await _context.Clientes
-                           .AsNoTracking()
-                           .Where(x => x.ClienteId.Equals(ClienteId))
-                           .AnyAsync();
-        }     
     }
+
 }

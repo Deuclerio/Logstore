@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Logstore.Pizza.Aplicacao.Cliente;
 using Logstore.Pizza.Aplicacao.Pedido;
 using Logstore.Pizza.Dominio.Cliente;
+using Logstore.Pizza.Dominio.Endereco;
 using Logstore.Pizza.Dominio.Pedido;
 using Logstore.Pizza.Dominio.Shared;
 using Logstore.Pizza.Infraestrutura.Database;
@@ -44,6 +45,9 @@ namespace Logstore.Pizza.API
 
             services.AddScoped<IPedidoServices, PedidoService>();
             services.AddScoped<IPedidoRepositorio, PedidoRepositorio>();
+
+            services.AddScoped<IEnderecoRepositorio, EnderecoRepositorio>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

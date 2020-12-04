@@ -19,16 +19,6 @@ namespace Logstore.Pizza.Infraestrutura.Repositorios
             _context = context;
         }
 
-        //public async Task<PedidoModel> GetByNumeroPedido(int numeroPedido)
-        //{
-        //    return await _context.Pedidos
-        //                     .AsNoTracking()
-        //                     .Include(x => x.PedidoItem).ThenInclude(x => x.Sabor1)
-        //                     //.Include(x => x.Produtos).ThenInclude(x => x.Sabor2)
-        //                     .Where(x => x.IdCliente.Equals(idCliente))
-        //                     .ToListAsync();
-        //}
-
         public async Task<ICollection<PedidoModel>> GetHistorico(int ClienteId)
         {
             return await _context.Pedidos
