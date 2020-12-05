@@ -20,6 +20,7 @@ namespace Logstore.Pizza.Dominio.Model
         public PedidoModel()
         {
             PedidoItem = new List<PedidoItemModel>();
+            DataRegistro = DateTime.Now;
         }
 
         [Key]
@@ -30,7 +31,7 @@ namespace Logstore.Pizza.Dominio.Model
 
         [Column("DataRegistro")]
 
-        public DateTime DataRegistro = new DateTime();
+        public DateTime DataRegistro { get; set; }
 
         [Column("ClienteId")]
         public int? ClienteId { get; set; }
@@ -68,6 +69,11 @@ namespace Logstore.Pizza.Dominio.Model
             return valorMeiaPizza;
         }
 
+        [ForeignKey("EnderecoId")]
         public EnderecoModel Endereco { get; set; }
+
+
+        [ForeignKey("ClienteId")]
+        public ClienteModel Cliente { get; set; }
     }
 }

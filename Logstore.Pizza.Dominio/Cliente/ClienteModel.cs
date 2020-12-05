@@ -28,9 +28,6 @@ namespace Logstore.Pizza.Dominio.Model
         [Column("Ativo")]
         public bool Ativo { get; set; }
 
-        [Column("DataRegistro")]
-        public DateTime DataRegistro { get; set; } = DateTime.Now;
-
         [Column("EnderecoId")]
         public int EnderecoId { get; set; }
 

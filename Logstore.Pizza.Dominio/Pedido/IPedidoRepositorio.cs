@@ -9,7 +9,6 @@ namespace Logstore.Pizza.Dominio.Pedido
     {
         //• O cliente deve ser capaz de ver seu histórico de pedidos, com os detalhes das pizzas, valor individual e valor total do pedido.
 
-        Task<ICollection<PedidoModel>> GetHistorico(int ClienteId);
-        //Task<PedidoModel> GetByNumeroPedido(int numeroPedido);
+        Task<IList<PedidoModel>> GetHistorico(int ClienteId);
     }
 }

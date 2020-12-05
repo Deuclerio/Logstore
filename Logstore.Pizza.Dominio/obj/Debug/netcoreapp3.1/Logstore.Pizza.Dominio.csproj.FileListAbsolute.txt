@@ -12,4 +12,3 @@ C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logst
 C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.AssemblyInfo.cs
 C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.dll
 C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.pdb
-C:\Fontes\Logstore\Logstore\Logstore.Pizza.Dominio\obj\Debug\netcoreapp3.1\Logstore.Pizza.Dominio.csprojAssemblyReference.cache

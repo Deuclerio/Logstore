@@ -7,6 +7,7 @@ using Logstore.Pizza.Aplicacao.Pedido;
 using Logstore.Pizza.Dominio.Cliente;
 using Logstore.Pizza.Dominio.Endereco;
 using Logstore.Pizza.Dominio.Pedido;
+using Logstore.Pizza.Dominio.Pizza;
 using Logstore.Pizza.Dominio.Shared;
 using Logstore.Pizza.Infraestrutura.Database;
 using Logstore.Pizza.Infraestrutura.Repositorios;
@@ -45,6 +46,7 @@ namespace Logstore.Pizza.API
 
             services.AddScoped<IPedidoServices, PedidoService>();
             services.AddScoped<IPedidoRepositorio, PedidoRepositorio>();
+            services.AddScoped<IProdutoRepositorio, ProdutoRepositorio>();
 
             services.AddScoped<IEnderecoRepositorio, EnderecoRepositorio>();
 

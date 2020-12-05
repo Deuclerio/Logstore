@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Logstore.Pizza.Aplicacao.Cliente;
 using Logstore.Pizza.Aplicacao.Pedido;
+using Logstore.Pizza.Aplicacao.ServicesBasic;
 using Logstore.Pizza.Aplicacao.ViewModel;
 using Logstore.Pizza.Dominio.Model;
 using Logstore.Pizza.Dominio.Pedido;
@@ -28,12 +29,12 @@ namespace Logstore.Pizza.API.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<string>> GetHistoricoPedido(int ClienteId)
+        public async Task<IActionResult> GetHistoricoPedido(int ClienteId)
         {
             try
             {
                 Response.StatusCode = 200;
-                return Ok(_repor.GetHistorico(ClienteId));
+               return Ok(await _repor.GetHistorico(ClienteId));
             }
             catch (Exception ex)
             {
